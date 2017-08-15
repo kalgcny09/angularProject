@@ -9,3 +9,9 @@ if (environment.production) {
 }
 
 platformBrowserDynamic().bootstrapModule(AppModule);
+
+//angular starts with this file then goes to app.module.ts 
+//then it goes to app.component.ts (type script)
+//which then loads app root, 
+//which shows up on the index html page 
+//that gets loaded to the browser
